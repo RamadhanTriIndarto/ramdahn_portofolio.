@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - TKJ</title>
+    <style>
+        /* Gaya untuk mengatur susunan foto (Grid) */
+        .container-pengalaman {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Membagi menjadi 2 kolom */
+            gap: 20px; /* Jarak antar kotak */
+            padding: 20px;
+            justify-items: center;
+        }
+
+        .item-pengalaman {
+            text-align: center;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 8px;
+            width: 100%;
+            max-width: 250px;
+        }
+
+        .item-pengalaman img {
+            width: 100%; /* Foto mengikuti lebar kotak */
+            height: 150px; /* Tinggi seragam agar rapi */
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .item-pengalaman p {
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        /* Merapikan tampilan teks lainnya */
+        body { font-family: sans-serif; line-height: 1.6; }
+        h2, h3 { color: darkblue; }
+        center { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+
+    <center>
+        <h2>PORTOFOLIO</h2>
+        <img src="c:\Users\ramadhan\OneDrive\Gambar\Rol Kamera\WIN_20260420_14_02_03_Pro.jpg" width="200px">
+    </center>
+
+    <hr>
+    <center><h3>Tentang Saya</h3></center>
+    
+    <center>
+        <p>Saya siswa di SMK Bina Informatika jurusan Teknik Komputer dan Jaringan</p><p>alasan saya memilih jurusan ini karna saya tertarik teknologi. Dan saya sedang mendalami Dasar-Dasar jaringan.</p>
+    </center>
+
+    <hr>
+
+    <center>
+        <h3>Pendidikan</h3>
+        <ul style="list-style: none; padding: 0;">
+            <li><strong>SMPN 12 Tangerang Selatan:</strong> Lulus Tahun 2025</li>
+            <li><strong>SMK Bina Informatika:</strong> 2025 - Sekarang (TKJ)</li>
+        </ul>
+    </center>
+
+    <hr>
+
+    <center><h3>Pengalaman</h3></center>
+
+    <div class="container-pengalaman">
+        
+        <div class="item-pengalaman">
+            <img src="c:\Users\ramadhan\OneDrive\Gambar\Screenshot\Cuplikan layar 2026-04-09 082522.png">
+            <p>Konfigurasi CLI LInux</p>
+        </div>
+
+        <div class="item-pengalaman">
+            <img src="c:\Users\ramadhan\OneDrive\Gambar\Gambar WhatsApp 2025-11-05 pukul 09.07.25_66a47d05.jpg">
+            <p>Crimping</p>
+        </div>
+
+        <div class="item-pengalaman">
+            <img src="c:\Users\ramadhan\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\LocalState\sessions\415D914BA2C661B83A6943C5CB583270E892ACFF\transfers\2026-17\WhatsApp Image 2026-04-23 at 15.45.34.jpeg">
+            <p>Konfigurasi Mikrotik</p>
+        </div>
+
+        <div class="item-pengalaman">
+            <img src="c:\Users\ramadhan\OneDrive\Gambar\Screenshot\Cuplikan layar 2026-04-23 155453.png">
+            <p>Konfigurasi Access Point</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
